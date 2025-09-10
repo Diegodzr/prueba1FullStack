@@ -1,0 +1,25 @@
+#navPrincipal{
+    border: 1rem;
+    border-color: #000000;
+}
+
+body{
+   background-color: #ef763d;
+}
+
+.card{
+    background-color: #fa996c;
+    margin: 5rem;
+}
+
+#trabajos{
+    display: flex;
+    flex-direction: row;
+}
+
+.boton{
+    background-color: #ffddcd;
+    color: #000000;
+    border-radius: 10%;
+    text-align: center;
+}
