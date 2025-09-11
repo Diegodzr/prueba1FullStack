@@ -1,3 +1,10 @@
+/* paleta de colores
+Primario: #F6A87A (naranja pastel)
+Secundario: #FFD8A9 (durazno claro)
+Complementario: #6C63FF (violeta pastel)
+Neutros: #F4F4F4 (gris claro), #4A4A4A (gris oscuro)
+*/
+
 #divInicial{
     background-image: url("../img/imgPrincipal.png");
     background-size: cover;       /* la imagen ocupa todo el div */
@@ -13,5 +20,35 @@
 
 #pichin{
     color: #ffffff;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
 }
+
+#empresas {
+    background-color: #F6A87A;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column; /* Primero el texto arriba, luego las imágenes */
+    align-items: center;
+    text-align: center;
+}
+
+#empresas h2 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    max-width: 800px;
+}
+
+#imagenEmpresas {
+    display: flex;
+    justify-content: space-around; /* Espacio equitativo entre las imágenes */
+    align-items: center;
+    width: 80%; /* Ajusta el ancho según necesites */
+}
+
+#imagenEmpresas img {
+    max-height: 80px; /* Mantiene la altura igual */
+    height: auto; /* Mantiene proporción de la imagen */
+    width: auto;
+    object-fit: contain;
+}
+
