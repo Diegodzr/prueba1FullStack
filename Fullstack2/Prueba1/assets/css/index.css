@@ -1,0 +1,17 @@
+#divInicial{
+    background-image: url("../img/imgPrincipal.png");
+    background-size: cover;       /* la imagen ocupa todo el div */
+    background-position: center;  /* centrada */
+    background-repeat: no-repeat; /* no se repite */
+    height: 100vh;                /* ocupa toda la pantalla */
+    display: flex;
+    align-items: center;          /* centra verticalmente el texto */
+    justify-content: start;       /* texto a la izquierda */
+    padding-left: 50px;           /* un poco de espacio desde el borde */
+
+}
+
+#pichin{
+    color: #ffffff;
+    font-size: 2.2rem;
+}

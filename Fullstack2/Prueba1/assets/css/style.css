@@ -1,0 +1,37 @@
+/* paleta de colores
+Primario: #F6A87A (naranja pastel)
+Secundario: #FFD8A9 (durazno claro)
+Complementario: #6C63FF (violeta pastel)
+Neutros: #F4F4F4 (gris claro), #4A4A4A (gris oscuro)
+*/
+
+#divInicial{
+    background-image: url(/Fullstack2/Prueba1/assets/img/);
+}
+
+#navPrincipal{
+    border: 1rem;
+    border-color: #000000;
+    background-color: #F6A87A ;
+}
+
+body{
+   background-color: #FFD8A9;
+}
+
+.card{
+    background-color: #F4F4F4;
+    margin: 5rem;
+}
+
+#trabajos{
+    display: flex;
+    flex-direction: row;
+}
+
+.boton{
+    background-color: #ffddcd;
+    color: #000000;
+    border-radius: 10%;
+    text-align: center;
+}
