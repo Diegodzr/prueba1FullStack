@@ -47,6 +47,13 @@
     to { opacity: 1; transform: translateY(0); }
 }
 
+.error {
+    font-size: 14px;
+    color: red;
+    margin-top: 4px;
+    display: block;
+}
+
 /* Card de agradecimiento */
 .card-agradecimiento {
     width: 60%;

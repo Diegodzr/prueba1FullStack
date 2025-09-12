@@ -55,25 +55,27 @@
     <form id="empresaForm" action="#" method="post">
       <label for="nombreEmpresa">Nombre de la Empresa:</label><br />
       <input type="text" id="nombreEmpresa" name="nombreEmpresa" required /><br /><br />
+      <span class="error"></span>
 
       <label for="direccion">Dirección:</label><br />
       <input type="text" id="direccion" name="direccion" required /><br /><br />
 
       <label for="correo">Correo Electrónico:</label><br />
       <input type="email" id="correo" name="correo" required /><br /><br />
+      <span class="error"></span>
 
       <label for="telefono">Teléfono:</label><br />
       <input type="text" id="telefono" name="telefono" /><br /><br />
 
       <label for="descripcion">Descripción del Puesto:</label><br />
       <textarea id="descripcion" name="descripcion" rows="4" required></textarea><br /><br />
+      <span class="error"></span>
 
       <input type="submit" value="Inscribirse" />
     </form>
   </div>
 </div>
 
-<!-- Este div lo vamos a mostrar dentro de #containerForm -->
 <div id="agradecimiento" class="card" style="display: none;">
   <h1>Gracias por tu interés<br>
   Miles de trabajadores están interesados en trabajar contigo.<br>
