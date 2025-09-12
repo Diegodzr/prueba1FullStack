@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: stretch; /* Hace que los hijos tengan la misma altura */
+    align-items: stretch;
     margin: 5vh;
-    gap: 2%; /* Espacio entre imagen y formulario */
+    gap: 2%;
 }
 
 #compFormulario, #formulario {
-    flex: 1; /* Ambos ocupan el mismo espacio */
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -16,13 +16,13 @@
 #compFormulario img{
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor */
+    object-fit: cover;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15), inset 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
 .card{
-    width: 100%; /* Ocupa todo el ancho del contenedor */
+    width: 100%;
     padding: 2%;
     border-radius: 20px;
     background: linear-gradient(135deg, #F6A87A 0%, #FFB675 50%, #FFD8A9 100%);
@@ -48,13 +48,12 @@
 }
 
 .error {
-    font-size: 14px;
-    color: red;
-    margin-top: 4px;
+    font-size: 15px;
+    color: rgb(128, 0, 0);
     display: block;
+    height: 0.5vh;
 }
 
-/* Card de agradecimiento */
 .card-agradecimiento {
     width: 60%;
     padding: 3%;
