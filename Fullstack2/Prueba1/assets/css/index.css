@@ -13,7 +13,7 @@ Neutros: #F4F4F4 (gris claro), #4A4A4A (gris oscuro)
     height: 100vh;                /* ocupa toda la pantalla */
     display: flex;
     align-items: center;          /* centra verticalmente el texto */
-    justify-content: start;       /* texto a la izquierda */
+    justify-content: start;       /* texto al inicio */
     padding-left: 50px;           /* un poco de espacio desde el borde */
 
 }
@@ -34,7 +34,7 @@ Neutros: #F4F4F4 (gris claro), #4A4A4A (gris oscuro)
 
 #empresas h2 {
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* tamanio letra*/
     max-width: 800px;
 }
 
@@ -51,4 +51,3 @@ Neutros: #F4F4F4 (gris claro), #4A4A4A (gris oscuro)
     width: auto;
     object-fit: contain;
 }
-

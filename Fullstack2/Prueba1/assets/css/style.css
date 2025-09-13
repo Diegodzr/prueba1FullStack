@@ -6,20 +6,20 @@ Neutros: #F4F4F4 (gris claro), #4A4A4A (gris oscuro)
 */
 
 #divInicial{
-    background-image: url(/Fullstack2/Prueba1/assets/img/);
+    background-image: url(/Fullstack2/Prueba1/assets/img/); /* Imagen para el div*/
 }
 
 #navPrincipal{
-    background-color: #FFD8A9;
+    background-color: #FFD8A9; /* color principal para div*/
 }
 
 body{
-   background: linear-gradient(135deg, #f6a87a, #f8d49d);
+   background: linear-gradient(135deg, #f6a87a, #f8d49d);  /* fondo en degradado*/
 }
 
 #trabajos{
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    /*direccion de las ofertas laborales*/
 }
 
 .boton{
@@ -32,4 +32,8 @@ body{
 #logoNav{
     background-color: #d38e65 ;
     border-radius: 8%;
+}
+
+#reservado{
+    background-color: rgba(0, 0, 0, 0.2)
 }
